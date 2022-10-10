@@ -14,6 +14,7 @@ export const Faq = () => {
                px: '$6',
             }}
             direction={'column'}
+            id="faq"
          >
             <Flex align={'center'} direction={'column'}>
                <Text span css={{color: '$blue600'}}>

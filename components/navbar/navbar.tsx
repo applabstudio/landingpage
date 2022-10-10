@@ -30,16 +30,15 @@ export const Nav = () => {
       >
          <Navbar.Brand>
             <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
-            <AcmeLogo />
-            <Text b color="inherit" hideIn="xs">
-               ACME
+            <img src="../../logo.png" width="50px" style={{paddingLeft: 20}}/>
+            <Text b color="inherit" hideIn="xs" style={{paddingLeft: 10}}>
+               Chartista
             </Text>
             <Navbar.Content
                hideIn="sm"
                css={{
                   pl: '6rem',
-               }}
-            >
+               }}>
                <Dropdown isBordered>
                   <Navbar.Item>
                      <Dropdown.Button
@@ -116,11 +115,9 @@ export const Nav = () => {
                      </Dropdown.Item>
                   </Dropdown.Menu>
                </Dropdown>
-               <Navbar.Link isActive href="#">
-                  Customers
-               </Navbar.Link>
-               <Navbar.Link href="#">Pricing</Navbar.Link>
-               <Navbar.Link href="#">Company</Navbar.Link>
+               <Navbar.Link isActive href="#customers">Customers</Navbar.Link>
+               <Navbar.Link href="#pricing">Pricing</Navbar.Link>
+               <Navbar.Link href="#faq">Faq</Navbar.Link>
             </Navbar.Content>
          </Navbar.Brand>
 
@@ -139,18 +136,6 @@ export const Nav = () => {
                </Navbar.CollapseItem>
             ))}
             <Navbar.CollapseItem>
-               <Link
-                  color="inherit"
-                  css={{
-                     minWidth: '100%',
-                  }}
-                  target="_blank"
-                  href="https://github.com/Siumauricio/landing-template-nextui"
-               >
-                  <GithubIcon />
-               </Link>
-            </Navbar.CollapseItem>
-            <Navbar.CollapseItem>
                <Switch
                   checked={isDark}
                   onChange={(e) =>
@@ -167,18 +152,7 @@ export const Nav = () => {
                   Start free trial
                </Button>
             </Navbar.Item>
-            <Navbar.Item hideIn={'xs'}>
-               <Link
-                  color="inherit"
-                  css={{
-                     minWidth: '100%',
-                  }}
-                  target="_blank"
-                  href="https://github.com/Siumauricio/landing-template-nextui"
-               >
-                  <GithubIcon />
-               </Link>
-            </Navbar.Item>
+
             <Navbar.Item hideIn={'xs'}>
                <Switch
                   checked={isDark}

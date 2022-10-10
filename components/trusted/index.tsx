@@ -16,6 +16,7 @@ export const Trusted = () => {
                   px: '$64',
                },
             }}
+            id="customers"
          >
             <Text h2 css={{textAlign: 'center'}}>
                Trusted by over 10000+ customers

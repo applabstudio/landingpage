@@ -13,6 +13,7 @@ export const Plans = () => {
             wrap={'wrap'}
             direction={'column'}
             align={'center'}
+            id="pricing"
          >
             <Flex direction={'column'} align={'center'}>
                <Text span css={{color: '$blue600'}}>
