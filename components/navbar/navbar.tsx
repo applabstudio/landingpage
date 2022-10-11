@@ -2,7 +2,6 @@ import {Button, Dropdown, Link, Navbar, Switch, Text} from '@nextui-org/react';
 import React from 'react';
 import {ModalLogin} from '../modal';
 import {icons} from './icons';
-import {AcmeLogo} from './logo';
 import {useTheme as useNextTheme} from 'next-themes';
 import {useTheme} from '@nextui-org/react';
 import {GithubIcon} from '../icons/GithubIcon';
@@ -56,7 +55,7 @@ export const Nav = () => {
                      </Dropdown.Button>
                   </Navbar.Item>
                   <Dropdown.Menu
-                     aria-label="ACME features"
+                     aria-label="Chartista features"
                      css={{
                         '$$dropdownMenuWidth': '340px',
                         '$$dropdownItemHeight': '70px',
@@ -76,7 +75,7 @@ export const Nav = () => {
                      <Dropdown.Item
                         key="autoscaling"
                         showFullDescription
-                        description="ACME scales apps to meet user demand, automagically, based on load."
+                        description="Chartista scales apps to meet user demand, automagically, based on load."
                         icon={icons.scale}
                      >
                         Autoscaling
@@ -92,7 +91,7 @@ export const Nav = () => {
                      <Dropdown.Item
                         key="production_ready"
                         showFullDescription
-                        description="ACME runs on ACME, join us and others serving requests at web scale."
+                        description="Chartista runs on FTX and Binance, join us and others serving requests at web scale."
                         icon={icons.flash}
                      >
                         Production Ready

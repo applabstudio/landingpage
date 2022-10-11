@@ -1,6 +1,5 @@
 import {Button, Divider, Grid, Text} from '@nextui-org/react';
 import React from 'react';
-import {AcmeLogo} from '../navbar/logo';
 import {Flex} from '../styles/flex';
 
 export const Trusted = () => {
@@ -49,7 +48,7 @@ export const Trusted = () => {
             >
                <Grid sm={3} justify="center">
                   <Flex align={'center'} justify={'center'}>
-                     <AcmeLogo />
+                  <img src="../../logo.png" width="50px"/>
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 1
                      </Text>
@@ -57,7 +56,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                     <AcmeLogo />{' '}
+                  <img src="../../logo.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 2
                      </Text>
@@ -65,7 +64,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                     <AcmeLogo />{' '}
+                  <img src="../../logo.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 3
                      </Text>
@@ -73,7 +72,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                     <AcmeLogo />{' '}
+                  <img src="../../logo.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 4
                      </Text>
@@ -81,7 +80,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                     <AcmeLogo />{' '}
+                  <img src="../../logo.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 5
                      </Text>
@@ -89,7 +88,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                     <AcmeLogo />{' '}
+                     <img src="../../logo.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 6
                      </Text>
@@ -97,7 +96,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                     <AcmeLogo />{' '}
+                     <img src="../../logo.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 7
                      </Text>
@@ -105,7 +104,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                     <AcmeLogo />{' '}
+                     <img src="../../logo.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 8
                      </Text>

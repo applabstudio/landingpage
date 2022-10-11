@@ -1,6 +1,5 @@
 import {Divider, Text} from '@nextui-org/react';
 import React from 'react';
-import {AcmeLogo} from '../navbar/logo';
 import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
 
@@ -30,7 +29,7 @@ export const Footer = () => {
                   direction={'column'}
                   align={'center'}
                >
-                  <AcmeLogo />
+                     <img src="../../logo.png" width="50px"/>
                   <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
                      <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
@@ -199,17 +198,17 @@ export const Footer = () => {
                      },
                   }}
                >
-                  <Flex
+                  {/* <Flex
                      css={{
                         gap: '$10',
                      }}
                      wrap={'wrap'}
                   >
-                     <AcmeLogo />
-                     <AcmeLogo />
-                     <AcmeLogo />
-                     <AcmeLogo />
-                  </Flex>
+                    <img src="../../logo.png" width="50px"/>
+                    <img src="../../logo.png" width="50px"/>
+                    <img src="../../logo.png" width="50px"/>
+                    <img src="../../logo.png" width="50px"/>
+                  </Flex> */}
                   <Flex
                      css={{
                         gap: '$6',
@@ -228,7 +227,7 @@ export const Footer = () => {
                      }}
                   >
                      <Text span css={{color: '$accents8'}}>
-                        © Copyright 2021 Acme Inc.
+                        © Copyright 2022 Chartista LTD.
                      </Text>
                   </Flex>
                </Flex>

@@ -125,12 +125,12 @@ export const Hero = () => {
             <Box
                css={{
                   '& img': {
-                     width: '775px',
+                     width: '240px',
                      objectFit: 'contain',
                   },
                }}
             >
-               <img src="mock.png" />
+               <img src="mock.png"/>
             </Box>
          </Flex>
          <Divider
