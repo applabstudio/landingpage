@@ -29,7 +29,7 @@ export const Footer = () => {
                   direction={'column'}
                   align={'center'}
                >
-                     <img src="../../logo.png" width="50px"/>
+                     <img src="../../placeholder.png" width="50px"/>
                   <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
                      <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
@@ -227,7 +227,7 @@ export const Footer = () => {
                      }}
                   >
                      <Text span css={{color: '$accents8'}}>
-                        © Copyright 2022 Chartista LTD.
+                        © Copyright 2022 By Company LTD.
                      </Text>
                   </Flex>
                </Flex>

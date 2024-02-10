@@ -51,17 +51,9 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     for{' '}
+                     in NextJS
                   </Text>
-                  <Text
-                     h1
-                     css={{
-                        display: 'inline',
-                     }}
-                     color="primary"
-                  >
-                     React developers
-                  </Text>
+            
                </Box>
 
                <Text

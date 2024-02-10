@@ -48,7 +48,7 @@ export const Trusted = () => {
             >
                <Grid sm={3} justify="center">
                   <Flex align={'center'} justify={'center'}>
-                  <img src="../../logo.png" width="50px"/>
+                  <img src="../../placeholder.png" width="50px"/>
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 1
                      </Text>
@@ -56,7 +56,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                  <img src="../../logo.png" width="50px"/>{' '}
+                  <img src="../../placeholder.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 2
                      </Text>
@@ -64,7 +64,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                  <img src="../../logo.png" width="50px"/>{' '}
+                  <img src="../../placeholder.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 3
                      </Text>
@@ -72,7 +72,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                  <img src="../../logo.png" width="50px"/>{' '}
+                  <img src="../../placeholder.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 4
                      </Text>
@@ -80,7 +80,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                  <img src="../../logo.png" width="50px"/>{' '}
+                  <img src="../../placeholder.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 5
                      </Text>
@@ -88,7 +88,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                     <img src="../../logo.png" width="50px"/>{' '}
+                     <img src="../../placeholder.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 6
                      </Text>
@@ -96,7 +96,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                     <img src="../../logo.png" width="50px"/>{' '}
+                     <img src="../../placeholder.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 7
                      </Text>
@@ -104,7 +104,7 @@ export const Trusted = () => {
                </Grid>
                <Grid sm={3} justify="center">
                   <Flex align={'center'}>
-                     <img src="../../logo.png" width="50px"/>{' '}
+                     <img src="../../placeholder.png" width="50px"/>{' '}
                      <Text weight={'semibold'} span size={'$lg'}>
                         Company 8
                      </Text>

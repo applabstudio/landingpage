@@ -29,9 +29,9 @@ export const Nav = () => {
       >
          <Navbar.Brand>
             <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
-            <img src="../../logo.png" width="50px" style={{paddingLeft: 20}}/>
+            <img src="../../placeholder.png" width="50px" style={{paddingLeft: 20}}/>
             <Text b color="inherit" hideIn="xs" style={{paddingLeft: 10}}>
-               Chartista
+               Company
             </Text>
             <Navbar.Content
                hideIn="sm"
